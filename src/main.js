@@ -9,7 +9,7 @@ import { UnrealBloomPass } from 'three/examples/jsm/postprocessing/UnrealBloomPa
 const AZ_MIN = -Math.PI / 2;
 const AZ_MAX = Math.PI / 2;
 const REVERSE = false;
-const FRAMES_DIR = '/textures/fishver4';
+const FRAMES_DIR = './textures/fishver4';
 const MAX_RIPPLES = 64;
 const MAX_RIPPLES_PER_SPLASH = 64;
 const SPLASH_INTERVAL_S = 4;
@@ -362,8 +362,8 @@ async function loadAudioVersions() {
     }
 
     const versionLoads = manifest.map(async (entry) => {
-      const audioPath = `/audio/${entry.files.audio}`;
-      const tapsPath = `/audio/${entry.files.taps}`;
+      const audioPath = `./audio/${entry.files.audio}`;
+      const tapsPath = `./audio/${entry.files.taps}`;
 
       try {
         const [audioResponse, tapResponse] = await Promise.all([
@@ -932,10 +932,10 @@ function loadUrl(url) {
   loader.load(url, (gltf) => show(gltf.scene), undefined, () => placeholder());
 }
 
-fetch('/models/asset.glb')
+fetch('./models/asset.glb')
   .then((response) => {
     if (response.ok && !response.headers.get('content-type')?.includes('html')) {
-      loadUrl('/models/asset.glb');
+      loadUrl('./models/asset.glb');
       return;
     }
     placeholder();
