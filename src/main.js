@@ -351,7 +351,7 @@ function formatTapSummary(taps) {
 
 async function loadAudioVersions() {
   try {
-    const response = await fetch('/audio/manifest.json');
+    const response = await fetch('./audio/manifest.json');
     if (!response.ok) {
       throw new Error(`Audio manifest fetch failed: ${response.status}`);
     }
