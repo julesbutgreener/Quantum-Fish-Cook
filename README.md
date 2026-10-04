@@ -70,12 +70,24 @@ Key principles:
 - angle-driven frame progression
 - precomputed effects shipped directly to the client
 
-## Local development
+## Open the site
+
+GitHub Pages URL:
+
+https://julesbutgreener.github.io/Quantum-Fish-Cook/
+
+Local development:
 
 ```bash
 npm install
 npm run dev
 ```
+
+Then open the URL shown in the terminal, usually:
+
+http://localhost:5173/
+
+If port 5173 is busy, Vite will choose the next available port.
 
 ## Production build
 

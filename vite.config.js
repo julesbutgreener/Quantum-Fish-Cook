@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite';
 
-export default defineConfig({
+export default defineConfig(({ command }) => ({
+  base: command === 'build' ? '/Quantum-Fish-Cook/' : '/',
   build: {
     chunkSizeWarningLimit: 700,
     rollupOptions: {
@@ -16,4 +17,4 @@ export default defineConfig({
       },
     },
   },
-});
+}));
