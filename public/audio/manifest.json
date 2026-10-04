@@ -1,0 +1,161 @@
+[
+  {
+    "index": 0,
+    "name": "dry",
+    "ripples": false,
+    "params": {
+      "machine": "aer",
+      "exact": true,
+      "tail_ms": 8000,
+      "output_format": "pcm_16",
+      "mix": 0
+    },
+    "job_id": "47959801-b0de-44de-a100-54265c8ab5e6",
+    "files": {
+      "ir": "bake/ir/v00_dry.ir.json",
+      "audio": "v00_dry.wav",
+      "taps": "taps/v00_dry.taps.json"
+    },
+    "assets": {
+      "ir": "9896213e-d5c9-4cab-a7b1-a5b1e5611d03",
+      "result": "a5d5f496-a2fd-429c-a437-8a250b592c51",
+      "taps": "ab44c940-7472-4a60-9153-900c598544ef"
+    }
+  },
+  {
+    "index": 1,
+    "name": "faint",
+    "ripples": true,
+    "params": {
+      "machine": "aer",
+      "exact": true,
+      "tail_ms": 8000,
+      "output_format": "pcm_16",
+      "mix": 0.35,
+      "master_ms": 1200,
+      "depth": 4,
+      "decay": 0.8,
+      "theta_x": 0.5
+    },
+    "job_id": "24043a3c-60c4-4877-9db5-17796881aaba",
+    "files": {
+      "ir": "bake/ir/v01_faint.ir.json",
+      "audio": "v01_faint.wav",
+      "taps": "taps/v01_faint.taps.json"
+    },
+    "assets": {
+      "ir": "a30c9011-4845-4c17-830d-f37d1faf87fa",
+      "result": "4ebd6b84-115f-48c5-b205-d54c0aeda8c1",
+      "taps": "b665c669-5b6e-41ac-9bc0-9930a6f60b54"
+    }
+  },
+  {
+    "index": 2,
+    "name": "light",
+    "ripples": true,
+    "params": {
+      "machine": "aer",
+      "exact": true,
+      "tail_ms": 8000,
+      "output_format": "pcm_16",
+      "mix": 0.5,
+      "master_ms": 2000,
+      "depth": 6,
+      "theta_x": 0.5
+    },
+    "job_id": "f98d10ed-1fa9-462e-a8d1-ea057b19bbba",
+    "files": {
+      "ir": "bake/ir/v02_light.ir.json",
+      "audio": "v02_light.wav",
+      "taps": "taps/v02_light.taps.json"
+    },
+    "assets": {
+      "ir": "785ee711-8b4c-4d65-896c-847f43ce27d9",
+      "result": "52f73b01-1a7a-4557-901c-b043e8f5e660",
+      "taps": "bbef8ed6-5d50-4c39-ae41-8f8a9a096613"
+    }
+  },
+  {
+    "index": 3,
+    "name": "medium",
+    "ripples": true,
+    "params": {
+      "machine": "aer",
+      "exact": true,
+      "tail_ms": 8000,
+      "output_format": "pcm_16",
+      "mix": 0.65,
+      "master_ms": 3200,
+      "depth": 8,
+      "theta_x": 0.6,
+      "feedback": 0.25
+    },
+    "job_id": "cce14b4c-0d3a-4080-938d-11361c605840",
+    "files": {
+      "ir": "bake/ir/v03_medium.ir.json",
+      "audio": "v03_medium.wav",
+      "taps": "taps/v03_medium.taps.json"
+    },
+    "assets": {
+      "ir": "ffcf2067-a206-4aba-8c2f-51c3099754e2",
+      "result": "a27a5c30-72d1-452f-b1c9-5c0aa308b06b",
+      "taps": "ec66ff52-c27d-44c0-bf3f-fc683250225c"
+    }
+  },
+  {
+    "index": 4,
+    "name": "heavy",
+    "ripples": true,
+    "params": {
+      "machine": "aer",
+      "exact": true,
+      "tail_ms": 8000,
+      "output_format": "pcm_16",
+      "mix": 0.8,
+      "master_ms": 4800,
+      "depth": 12,
+      "feedback": 0.45,
+      "negative_mode": "reverse",
+      "grain_ms": 250
+    },
+    "job_id": "b92bdfb8-ea1d-47c1-9962-d8ab48bd48b9",
+    "files": {
+      "ir": "bake/ir/v04_heavy.ir.json",
+      "audio": "v04_heavy.wav",
+      "taps": "taps/v04_heavy.taps.json"
+    },
+    "assets": {
+      "ir": "11533c28-4314-47e2-bc61-f2011d071494",
+      "result": "017c7340-e0dc-4737-8499-a8236567d77f",
+      "taps": "a813c974-149b-4d7f-a9a7-ae9b2bcead53"
+    }
+  },
+  {
+    "index": 5,
+    "name": "dense",
+    "ripples": true,
+    "params": {
+      "machine": "aer",
+      "exact": true,
+      "tail_ms": 8000,
+      "output_format": "pcm_16",
+      "mix": 0.9,
+      "master_ms": 6400,
+      "depth": 16,
+      "feedback": 0.6,
+      "negative_mode": "reverse",
+      "grain_ms": 250
+    },
+    "job_id": "481b427a-25de-4105-aa88-ea489c3fa97e",
+    "files": {
+      "ir": "bake/ir/v05_dense.ir.json",
+      "audio": "v05_dense.wav",
+      "taps": "taps/v05_dense.taps.json"
+    },
+    "assets": {
+      "ir": "3823ee00-b672-49f9-bc6d-90d08e4116a0",
+      "result": "0434c8b4-2fe2-4533-b43b-27435800ef06",
+      "taps": "50f61ce1-6830-4ff7-9e10-6a2542507b54"
+    }
+  }
+]

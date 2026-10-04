@@ -1,0 +1,10 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.tabSize": 2,
+  "files.eol": "\n",
+  "files.associations": { "*.glsl": "glsl", "*.vert": "glsl", "*.frag": "glsl" },
+  "files.exclude": { "**/.DS_Store": true },
+  "search.exclude": { "**/node_modules": true, "**/dist": true, "public/textures/fish": true },
+  "files.watcherExclude": { "**/node_modules/**": true, "public/textures/fish/**": true }
+}

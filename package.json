@@ -1,0 +1,19 @@
+{
+  "name": "quantum-3d-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "bake:plan": "node --env-file=.env bake/telablur-sweep.mjs --plan",
+    "bake:test": "node --env-file=.env bake/telablur-sweep.mjs --test",
+    "bake:sweep": "node --env-file=.env bake/telablur-sweep.mjs --run"
+  },
+  "dependencies": {
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0"
+  }
+}

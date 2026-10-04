@@ -1,0 +1,290 @@
+[
+  {
+    "index": 0,
+    "strength": 0,
+    "job_id": "ad18afa3-1824-4634-8884-0f9097fe93ec",
+    "output_asset_id": "ab25f059-44be-4e83-9ebc-198586305b02",
+    "file": "fish_000.png",
+    "params": {
+      "direction": "vertical",
+      "size": 1024,
+      "downscale": true
+    }
+  },
+  {
+    "index": 1,
+    "strength": 0.0435,
+    "job_id": "39bbf922-5241-4e96-b5f1-b3fe79ef0448",
+    "output_asset_id": "ff789e5f-e1de-4491-aadd-54a575972a3d",
+    "file": "fish_001.png",
+    "params": {
+      "direction": "vertical",
+      "size": 1024,
+      "downscale": true
+    }
+  },
+  {
+    "index": 2,
+    "strength": 0.087,
+    "job_id": "22079984-2289-4728-b51e-af67ddbe1ffb",
+    "output_asset_id": "5f13399f-cd6e-465b-97b7-3896c2281ab6",
+    "file": "fish_002.png",
+    "params": {
+      "direction": "vertical",
+      "size": 1024,
+      "downscale": true
+    }
+  },
+  {
+    "index": 3,
+    "strength": 0.1304,
+    "job_id": "26408304-f98a-4f01-9701-3dab0e950246",
+    "output_asset_id": "0e09990d-9a44-41a8-915c-fa6a38ac49be",
+    "file": "fish_003.png",
+    "params": {
+      "direction": "vertical",
+      "size": 1024,
+      "downscale": true
+    }
+  },
+  {
+    "index": 4,
+    "strength": 0.1739,
+    "job_id": "a2b1d14f-12e3-4440-9274-41e1ca3409b3",
+    "output_asset_id": "0b39a249-df62-45c3-a0b1-ff8b8286dea9",
+    "file": "fish_004.png",
+    "params": {
+      "direction": "vertical",
+      "size": 1024,
+      "downscale": true
+    }
+  },
+  {
+    "index": 5,
+    "strength": 0.2174,
+    "job_id": "3a30e338-d3b1-4d3e-9047-b0e85c5e68f4",
+    "output_asset_id": "4107d76c-b58b-4c9f-9391-dc7fa89e66df",
+    "file": "fish_005.png",
+    "params": {
+      "direction": "vertical",
+      "size": 1024,
+      "downscale": true
+    }
+  },
+  {
+    "index": 6,
+    "strength": 0.2609,
+    "job_id": "fcf8ce87-5552-44c6-a5d6-d0e3340c75d4",
+    "output_asset_id": "4c6238c0-f79f-43e9-92a5-f08e3aa73234",
+    "file": "fish_006.png",
+    "params": {
+      "direction": "vertical",
+      "size": 1024,
+      "downscale": true
+    }
+  },
+  {
+    "index": 7,
+    "strength": 0.3043,
+    "job_id": "1e7db45e-b02c-41dc-b01d-66c1258cda0e",
+    "output_asset_id": "8bddbc59-848d-42e7-9643-751ec65598fd",
+    "file": "fish_007.png",
+    "params": {
+      "direction": "vertical",
+      "size": 1024,
+      "downscale": true
+    }
+  },
+  {
+    "index": 8,
+    "strength": 0.3478,
+    "job_id": "5fd27581-b571-476f-ba11-586088919f96",
+    "output_asset_id": "8b507c45-7d43-4b39-bf89-15b0b72601eb",
+    "file": "fish_008.png",
+    "params": {
+      "direction": "vertical",
+      "size": 1024,
+      "downscale": true
+    }
+  },
+  {
+    "index": 9,
+    "strength": 0.3913,
+    "job_id": "c34714ee-ca69-4d54-9263-40d16a1dc01d",
+    "output_asset_id": "200eb1d0-447e-44c1-a470-5312fcb6b2fa",
+    "file": "fish_009.png",
+    "params": {
+      "direction": "vertical",
+      "size": 1024,
+      "downscale": true
+    }
+  },
+  {
+    "index": 10,
+    "strength": 0.4348,
+    "job_id": "69603a1c-65e7-4e8f-b376-466dbf0c7218",
+    "output_asset_id": "b824eb34-a448-4ca6-abe5-49c5e4542922",
+    "file": "fish_010.png",
+    "params": {
+      "direction": "vertical",
+      "size": 1024,
+      "downscale": true
+    }
+  },
+  {
+    "index": 11,
+    "strength": 0.4783,
+    "job_id": "2af55c93-94f4-4ddf-a9b7-84af32b72ba7",
+    "output_asset_id": "fd0d45f6-8c91-4d3c-9005-2377a59a9921",
+    "file": "fish_011.png",
+    "params": {
+      "direction": "vertical",
+      "size": 1024,
+      "downscale": true
+    }
+  },
+  {
+    "index": 12,
+    "strength": 0.5217,
+    "job_id": "2065c3d8-600c-4ffc-84b4-5804f9f344b9",
+    "output_asset_id": "5a97c457-2314-4458-91fc-1dd25c56d847",
+    "file": "fish_012.png",
+    "params": {
+      "direction": "vertical",
+      "size": 1024,
+      "downscale": true
+    }
+  },
+  {
+    "index": 13,
+    "strength": 0.5652,
+    "job_id": "0975b0c9-f172-4e26-89d8-6d9f09a48040",
+    "output_asset_id": "4b015a78-9c31-46f4-9647-5dfa3688a0bd",
+    "file": "fish_013.png",
+    "params": {
+      "direction": "vertical",
+      "size": 1024,
+      "downscale": true
+    }
+  },
+  {
+    "index": 14,
+    "strength": 0.6087,
+    "job_id": "560776d0-7f1c-4134-8bbb-0e62ff24d491",
+    "output_asset_id": "06e1b743-709f-4f9f-b3ed-6bfae4fbbd12",
+    "file": "fish_014.png",
+    "params": {
+      "direction": "vertical",
+      "size": 1024,
+      "downscale": true
+    }
+  },
+  {
+    "index": 15,
+    "strength": 0.6522,
+    "job_id": "775a751d-b5d8-4346-bd46-8cf0eafdd81f",
+    "output_asset_id": "4d6e84f6-da47-4483-8101-178a1880b1fd",
+    "file": "fish_015.png",
+    "params": {
+      "direction": "vertical",
+      "size": 1024,
+      "downscale": true
+    }
+  },
+  {
+    "index": 16,
+    "strength": 0.6957,
+    "job_id": "92b8334e-972b-4bc3-ab92-e39ac314ffc2",
+    "output_asset_id": "59ebedce-637a-470c-bb43-0388a1de41e6",
+    "file": "fish_016.png",
+    "params": {
+      "direction": "vertical",
+      "size": 1024,
+      "downscale": true
+    }
+  },
+  {
+    "index": 17,
+    "strength": 0.7391,
+    "job_id": "81f7c678-62e6-4986-9a39-4a4633efd58f",
+    "output_asset_id": "7f327fa3-97f7-424b-a174-a5128d665de7",
+    "file": "fish_017.png",
+    "params": {
+      "direction": "vertical",
+      "size": 1024,
+      "downscale": true
+    }
+  },
+  {
+    "index": 18,
+    "strength": 0.7826,
+    "job_id": "e514c802-89f0-424b-85f4-4048967503f2",
+    "output_asset_id": "ca991eb1-8bd9-462b-b330-fa672e2b0f4b",
+    "file": "fish_018.png",
+    "params": {
+      "direction": "vertical",
+      "size": 1024,
+      "downscale": true
+    }
+  },
+  {
+    "index": 19,
+    "strength": 0.8261,
+    "job_id": "8aed200a-c0ee-49e0-babf-5923e5679e64",
+    "output_asset_id": "8a35f111-9b82-428d-ba6f-d82d4121a098",
+    "file": "fish_019.png",
+    "params": {
+      "direction": "vertical",
+      "size": 1024,
+      "downscale": true
+    }
+  },
+  {
+    "index": 20,
+    "strength": 0.8696,
+    "job_id": "f7ec0e8a-cc7a-4818-90d4-d481d27fd08f",
+    "output_asset_id": "35d96990-f38e-48ec-ba39-93a9659719ae",
+    "file": "fish_020.png",
+    "params": {
+      "direction": "vertical",
+      "size": 1024,
+      "downscale": true
+    }
+  },
+  {
+    "index": 21,
+    "strength": 0.913,
+    "job_id": "628b645f-6d75-4af7-9fc9-b2d89acf316e",
+    "output_asset_id": "05f28203-c2e5-4dc6-bafd-6ad25c6c5d80",
+    "file": "fish_021.png",
+    "params": {
+      "direction": "vertical",
+      "size": 1024,
+      "downscale": true
+    }
+  },
+  {
+    "index": 22,
+    "strength": 0.9565,
+    "job_id": "c2498e39-eefd-40be-baf3-766a16848708",
+    "output_asset_id": "c736a290-d34f-41dc-aa25-86e39ac842bd",
+    "file": "fish_022.png",
+    "params": {
+      "direction": "vertical",
+      "size": 1024,
+      "downscale": true
+    }
+  },
+  {
+    "index": 23,
+    "strength": 1,
+    "job_id": "9b16da1d-8298-41b2-b92d-de88f94dc268",
+    "output_asset_id": "0934f12b-4025-4f01-9ecf-2451683141cd",
+    "file": "fish_023.png",
+    "params": {
+      "direction": "vertical",
+      "size": 1024,
+      "downscale": true
+    }
+  }
+]

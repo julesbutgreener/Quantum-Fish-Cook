@@ -1,0 +1,20 @@
+{
+  "audio": "source/track.wav",
+  "outDir": "public/audio",
+  "irDir": "bake/ir",
+  "testVersion": 3,
+  "baseParams": {
+    "machine": "aer",
+    "exact": true,
+    "tail_ms": 8000,
+    "output_format": "pcm_16"
+  },
+  "versions": [
+    { "name": "dry", "ripples": false, "params": { "mix": 0 } },
+    { "name": "faint", "params": { "mix": 0.35, "master_ms": 1200, "depth": 4, "decay": 0.8, "theta_x": 0.5 } },
+    { "name": "light", "params": { "mix": 0.5, "master_ms": 2000, "depth": 6, "theta_x": 0.5 } },
+    { "name": "medium", "params": { "mix": 0.65, "master_ms": 3200, "depth": 8, "theta_x": 0.6, "feedback": 0.25 } },
+    { "name": "heavy", "params": { "mix": 0.8, "master_ms": 4800, "depth": 12, "feedback": 0.45, "negative_mode": "reverse", "grain_ms": 250 } },
+    { "name": "dense", "params": { "mix": 0.9, "master_ms": 6400, "depth": 16, "feedback": 0.6, "negative_mode": "reverse", "grain_ms": 250 } }
+  ]
+}

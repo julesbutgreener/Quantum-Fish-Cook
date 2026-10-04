@@ -1,0 +1,38 @@
+[
+  {
+    "index": 0,
+    "strength": 0,
+    "job_id": "6ff72e52-f0a4-42cf-8b86-3cdc7a54b763",
+    "output_asset_id": "3e5ceb77-e00c-4b82-905e-aa41e808ef43",
+    "file": "fish_000.png",
+    "params": {
+      "direction": "vertical",
+      "size": 1024,
+      "downscale": true
+    }
+  },
+  {
+    "index": 1,
+    "strength": 0.5,
+    "job_id": "b244a9d1-7fdb-4cf5-be28-683fa1b32bb2",
+    "output_asset_id": "094066b5-8770-4f29-abdc-925dadae2bd7",
+    "file": "fish_001.png",
+    "params": {
+      "direction": "vertical",
+      "size": 1024,
+      "downscale": true
+    }
+  },
+  {
+    "index": 2,
+    "strength": 1,
+    "job_id": "f26e7d1a-fb22-4dc8-9d3d-2f248149e65d",
+    "output_asset_id": "b2d50dca-c779-4245-b6e8-a59a1786f282",
+    "file": "fish_002.png",
+    "params": {
+      "direction": "vertical",
+      "size": 1024,
+      "downscale": true
+    }
+  }
+]

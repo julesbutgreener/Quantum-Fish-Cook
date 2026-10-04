@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "dev server",
+      "type": "shell",
+      "command": "npm run dev",
+      "isBackground": true,
+      "problemMatcher": [],
+      "group": { "kind": "build", "isDefault": true }
+    },
+    {
+      "label": "bake: plan (no API calls)",
+      "type": "shell",
+      "command": "npm run bake:plan",
+      "problemMatcher": []
+    },
+    {
+      "label": "bake: test (3 runs = 3 credits)",
+      "type": "shell",
+      "command": "npm run bake:test",
+      "problemMatcher": []
+    },
+    {
+      "label": "bake: full sweep (1 credit per frame)",
+      "type": "shell",
+      "command": "npm run bake:sweep",
+      "problemMatcher": []
+    }
+  ]
+}

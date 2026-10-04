@@ -1,0 +1,9 @@
+{
+  "image1": "source/rawfish_uvmap.png",
+  "image2": "source/deepfriedquantum.png",
+  "outDir": "public/textures/fishver4",
+  "frames": 24,
+  "strengthMin": 0,
+  "strengthMax": 1,
+  "params": { "direction": "vertical", "size": 1024, "downscale": true }
+}
